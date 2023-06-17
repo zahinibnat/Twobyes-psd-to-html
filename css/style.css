@@ -1,0 +1,217 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.banner{
+	background-image: url(../image/banner.jpg);
+	/*background-repeat: no-repeat;*/
+	/*background-position: right; */
+	/*background-size: cover;*/
+	height: 500px;
+	border-bottom: 5px solid #79D8FF;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header{
+	margin-top: 50px;
+	overflow: hidden;
+}
+.logo{
+	width: 10%;
+	float: left;
+	
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	/*border: 1px solid white;*/
+
+}
+.menu ul{
+	list-style: none;
+
+}
+.menu ul li{
+	float: right;
+}
+.menu ul li a{
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: white;
+	margin: 25px;
+	padding: 2px 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300;
+	transition-duration:  0.5s;
+
+}
+
+.menu ul li a:hover{
+	border-top:  1px solid #4ACAFF;
+}
+.ban-con{
+	/*width: 100%*/
+	text-align: center;
+	overflow: hidden;
+	margin-top: 15%;
+}
+.ban-con h1{
+	font-size: 55px;
+	font-weight:500;
+	color: white;
+	letter-spacing: 1.5px;
+	margin-bottom: 20px;
+	margin-left: 5.4%;
+	text-align: left;
+
+}
+input{
+	padding: 1.5% 30%;
+    border: none;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    box-shadow: 0 0 10px 0 black;
+    margin-bottom: 10px;
+}
+.button{ 
+	padding: 1.5% 3%;
+    border: none;
+    background-color: #4ACAFF;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    box-shadow: 2px 0 20px 0 black;
+    margin-bottom: 10px;
+}
+/*blog start*/
+.blog{
+	overflow: hidden;
+	text-align: center;
+	/*margin: 0 auto;*/
+	border-bottom: 5px solid #7E9DAC;
+	padding: 2% 0;
+}
+.blog-con{
+    width: 100%;
+    padding: 5% 0;
+    letter-spacing: 1.5px;
+}
+.blog-con h3{
+	font-weight: 300;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.blog-con h1{
+	font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.blog-con p{
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+.button2{
+	background-color: white;
+	border:1px solid #4ACAFF;
+	font-size: 15px;
+	font-weight: 300;
+	color: #4ACAFF;
+	border-radius: 5px;
+	transition: .5s;
+}
+.button2:hover{
+	background-color: #4ACAFF;
+	color: white;
+}
+.button-section{
+	background-color: #131C25;
+	overflow: hidden;
+	text-align: center;
+	letter-spacing: 1.5px;
+	padding: 12% 0;
+	border-bottom:  5px solid  #3FB3E3;
+}
+.button-section-con{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	padding: 2% 0;
+}
+.button-section-con h5{
+	font-weight: 300;
+	font-size: 20px;
+	color: white;
+
+}
+.button3{
+	background-color: #131C25;
+	font-size: 18px;
+	padding: 1.5% 5%;
+}
+.footer{
+	overflow: hidden;
+	padding: 2% 0;
+	color: white;
+	background-color: #7E9DAC;
+	font-weight: 300;
+	text-align: center;
+	padding: 0;
+}
+.footer-con{
+	width: 100%;
+	text-align: center;
+	padding: 3% 0;
+}
+.footer-con p{
+	font-weight: 300;
+	font-size: 20px;
+	padding: 10px 0;
+	letter-spacing: 1.5px;
+	
+
+}
+.boxx{
+    width: 98%;
+	background-color: #4ACAFF;
+	overflow: hidden;
+	box-shadow: 0 0 16px white;
+    margin-left: 1%;
+	border-radius:15px;
+	padding: 1% 0;
+}
+
+hr{
+    width: 35%;
+    border: 3px solid #7E9DAC;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+.menu2 {
+	width: 100%;
+	    padding: 10px 0;
+}
+.menu2 ul{
+	text-align: center;
+	margin-right: 40%;
+
+}
+.menu2 ul li{
+	
+}
+.menu2 ul li a{
+	
+}
